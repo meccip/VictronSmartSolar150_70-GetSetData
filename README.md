@@ -26,7 +26,7 @@ You can get some states if you inject a node with topic:
 **get_device_mode** for device mode state<br>
 
 # for MQTT Connection:
-To send SET/GET command add mqttOUT node and replace serial node. Set topic to **victron_esp32/command/send_raw**<br>
+To send data add mqttOUT node and replace serial node. Set topic to **victron_esp32/command/send_raw**<br>
 To receive data add mqttIN node and replace serial node. Set topic to **victron_esp32/telemetry/raw**
 #
 ![serial](https://github.com/user-attachments/assets/e15672b2-0e73-4b19-bd79-4d2ba6b8bd39)
