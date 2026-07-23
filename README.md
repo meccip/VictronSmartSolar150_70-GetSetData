@@ -26,6 +26,7 @@ You can get some states if you inject a node with topic:
 **get_device_mode** for device mode state<br>
 
 # for MQTT Connection:
+use yaml file, change RxTx pins acording to your board and run it with **esphome**.<br>
 To send data add mqttOUT node and replace serial node. Set topic to **victron_esp32/command/send_raw**<br>
 To receive data add mqttIN node and replace serial node. Set topic to **victron_esp32/telemetry/raw**
 #
